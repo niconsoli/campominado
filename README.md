@@ -6,7 +6,7 @@ Feito inteiramente em Java, este projeto simula o jogo eterno Campo Minado com m
 
 - Revele células;
 - Os números que cada célula possui representa quantas bombas estão ao redor desta mesma
-<img width="787" height="767" alt="image" src="https://github.com/user-attachments/assets/ffeaff08-68e4-4dbe-864b-09df86e7aa00" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ffeaff08-68e4-4dbe-864b-09df86e7aa00" />
 | Como mostra a imagem acima, o número representa exatamente quantas bombas estão em um quadrado 3x3, com a célula numerada como a central. No caso específico da imagem, apesar de sabermos que há seis bombas ao redor da célula central, não conseguimos saber aonde estas bombas estão.
 
 - Marque com bandeiras as células das quais você sabe que podem ter bombas!
@@ -39,6 +39,7 @@ Assim que encerrado, o jogo deve te parabenizar por vencer o jogo e te mostrar u
 - Digite `java -jar [caminho-do-arquivo]`;
 | Em `[caminho-do-arquivo]` insira o caminho completo do arquivo baixado, como por exemplo: "C:\Users\Usuário\Downloads\Campo Minado.jar"
 - Se divirta!
+
 
 
 

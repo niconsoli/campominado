@@ -1,2 +1,0 @@
-javac Calculadora.jar
-jar cfm Calculadora.jar manifest.txt Calculadora.class

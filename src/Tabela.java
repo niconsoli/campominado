@@ -54,8 +54,12 @@ public class Tabela {
             } } }
 
     public void toggleFlag(int linha, int coluna){
-        tabela[linha][coluna].flagged = !tabela[linha][coluna].flagged;
+        if (!tabela[linha][coluna].reveal){
+            tabela[linha][coluna].flagged = !tabela[linha][coluna].flagged;
+      } else {
+        System.out.println("Célula já reveleada.");
     }
+}
 
     public void reveal(int linha, int coluna){
     

@@ -6,7 +6,7 @@ public class Celula {
 
     @Override
     public String toString(){
-        if (flagged) return "F";
+        if (flagged) return "f";
         if (!reveal) return "?";
         if (temBomba) return "!";
         if (reveal) return Integer.toString(bombasAoRedor);

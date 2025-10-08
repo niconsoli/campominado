@@ -29,9 +29,11 @@ public class Tabela {
 
             if (!tabela[i][j].temBomba){
                 tabela[i][j].temBomba = true;
-                bombasColocadas++; } } }
+                bombasColocadas++; } 
+        } 
+    }
 
-    public void calcularBombasArd(){ //around 😎 //bglh mais dificil disparado
+    public void calcularBombasArd(){
         for (int i = 0; i < tabela.length; i++){
             for (int j = 0; j < tabela[0].length; j++){
                 int contador = 0;
@@ -44,14 +46,22 @@ public class Tabela {
 
                         if (vizinhoLinha >= 0 && vizinhoLinha < tabela.length && vizinhoColuna >= 0 && vizinhoColuna < tabela[0].length){ //out of bounds
                             if (tabela[vizinhoLinha][vizinhoColuna].temBomba){
-                            contador++; } } } } 
-            tabela[i][j].bombasAoRedor = contador;} } } //meudeus quanta coisa
+                            contador++; } 
+                        } 
+                    } 
+                } 
+            tabela[i][j].bombasAoRedor = contador;
+            } 
+        } 
+    }
 
     public void revelarTudo(){
         for (int i = 0; i < tabela.length; i++){
             for (int j = 0; j < tabela[i].length; j++){
                 tabela[i][j].reveal = true;
-            } } }
+            } 
+        } 
+    }
 
     public void toggleFlag(int linha, int coluna){
         if (!tabela[linha][coluna].reveal){
@@ -77,13 +87,18 @@ public class Tabela {
                             if(!tabela[linhaReveal][colunaReveal].temBomba){
                             tabela[linhaReveal][colunaReveal].reveal = true;   
                             }
-                    }}}
-                } else {
-                    tabela[linha][coluna].reveal = true;
-                    endgame = true; //reveal inicial
-                }} else {
-                System.out.println("Célula já reveleada.");
-        }}}
+                        }
+                    }
+                }
+            } else {
+                tabela[linha][coluna].reveal = true;
+                endgame = true; //reveal inicial
+        }
+            } else {
+            System.out.println("Célula já reveleada.");
+            }
+        }
+    }
 
     public boolean checarVitoria(){
         gameWin = true;
@@ -91,7 +106,10 @@ public class Tabela {
             for (int j = 0; j < tabela[0].length; j++){
                 if(!tabela[i][j].reveal && !tabela[i][j].temBomba){ //celulas seguras nao reveladas == jogo not over
                     gameWin = false;
-                }}}
+                }
+            }
+        }
         return gameWin;
     }
 }
+

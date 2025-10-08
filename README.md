@@ -27,7 +27,7 @@ No exemplo abaixo, foi requisitado um jogo no modo Fácil, por isso, recebemos u
 
 A fim de realizar as jogadas neste Campo Minado, o jogador deve seguir um padrão determinado e explicado pelo menu do sistema.
 Deve ser enviado ao programa no exato padrão de `ação`, `linha` e `coluna`, separados por espaços, a fim de que o código entenda.
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9ff2dcb5-4265-4827-99d7-a1ee4a1faae3" />
+<img width="1014" height="128" alt="image" src="https://github.com/user-attachments/assets/99861879-4316-410e-8ebc-32e831ba5b88" />
 
 | Dos exemplos acima, `reveal` `1` `3` implica que a célula da `primeira` linha e da `terceira` coluna seja `revelada`, `flag` `3` `2` implica que a célula da `terceira` linha e da `segunda` coluna receba uma `bandeira`, e por aí vai!
 | OBS.: Utilizar o comando `flag` em uma célula que já contém bandeira `removerá` a bandeira da mesma!
@@ -45,6 +45,7 @@ Assim que encerrado, o jogo deve te parabenizar por vencer o jogo e te mostrar u
 - Digite `java -jar [caminho-do-arquivo]`;
 | Em `[caminho-do-arquivo]` insira o caminho completo do arquivo baixado, como por exemplo: "C:\Users\Usuário\Downloads\Campo Minado.jar"
 - Se divirta!
+
 
 
 

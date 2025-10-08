@@ -22,7 +22,7 @@ Ao iniciar o código, você será recebido com um pequeno menu de escolha de dif
 
 No exemplo abaixo, foi requisitado um jogo no modo Fácil, por isso, recebemos uma grade 8x8 de pontos de interrogação `(onde cada ponto de interrogação significa uma célula ainda não revelada!)`.
 
-<img width="147" height="152" alt="image" src="https://github.com/user-attachments/assets/4286fdd0-db13-4c05-a9d1-b551c57341a2" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/4286fdd0-db13-4c05-a9d1-b551c57341a2" />
 
 
 A fim de realizar as jogadas neste Campo Minado, o jogador deve seguir um padrão determinado e explicado pelo menu do sistema.
@@ -45,6 +45,7 @@ Assim que encerrado, o jogo deve te parabenizar por vencer o jogo e te mostrar u
 - Digite `java -jar [caminho-do-arquivo]`;
 | Em `[caminho-do-arquivo]` insira o caminho completo do arquivo baixado, como por exemplo: "C:\Users\Usuário\Downloads\Campo Minado.jar"
 - Se divirta!
+
 
 
 
